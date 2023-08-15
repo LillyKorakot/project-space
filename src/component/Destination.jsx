@@ -2,7 +2,7 @@ import React from 'react'
 
 const Destination = () => {
   return (
-    <div>Destination</div>
+    <div className = " font-barlow">Destination</div>
   )
 }
 

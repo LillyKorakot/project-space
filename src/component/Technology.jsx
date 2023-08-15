@@ -2,7 +2,7 @@ import React from 'react'
 
 const Technology = () => {
   return (
-    <div>Technology</div>
+    <div className = " font-belle text-[56px] font-[400px]">JUPITER & SATURN</div>
   )
 }
 

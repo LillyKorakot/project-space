@@ -4,6 +4,10 @@ export default {
   "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
     extend: {},
+    fontFamily: {
+      'belle': ['Bellefair'],
+      'barlow': ['Barlow Condensed, sans-serif']
+    }
   },
   plugins: [],
 }
