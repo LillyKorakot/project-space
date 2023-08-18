@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Navbar = () => {
-  return (
-    <div className = " font-belle text-[150px] font-[400px] ">EARTH</div>
-  )
-}
+  return <div className=" fixed bg-white  ">EARTH</div>;
+};
 
-export default Navbar
+export default Navbar;
