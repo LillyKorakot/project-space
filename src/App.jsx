@@ -9,13 +9,13 @@ import Technology from "./component/Technology";
 function App() {
   return (
     <>
-    <Navbar/>
-    <Home/>
-    <Destination/>
-    <Crew/>
-    <Technology/>
+      <Navbar />
+      <Home />
+      <Destination />
+      <Crew />
+      <Technology />
     </>
-  )
+  );
 }
 
 export default App;
