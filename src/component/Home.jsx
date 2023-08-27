@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import { crew_desktop } from "../assets";
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+  return <div className="bg-[{crew_desktop}]"></div>;
+};
 
-export default Home
+export default Home;
