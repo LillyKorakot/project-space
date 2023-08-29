@@ -5,6 +5,14 @@ import icon_hamberger from "./shared/icon-hamburger.svg";
 //ส่วนรูปภาพของ Home
 
 //ส่วนรูปภาพของ destination
+import destination_desktop from "./destination/background-destination-mobile.jpg"
+import destination_mobile from "./destination/background-destination-mobile.jpg"
+import destination_tablet from "./destination/background-destination-tablet.jpg"
+import moon from "./destination/image-moon.png"
+import mars from "./destination/image-mars.png"
+import europa from "./destination/image-europa.png"
+import titan from "./destination/image-titan.png"
+
 
 //  ส่วนรูปภาพของ crew
 import crew_desktop from "./crew/background-crew-desktop.jpg";
@@ -34,4 +42,12 @@ export {
   mark_shuttleworth_webp,
   victor_glover,
   victor_glover_webp,
+  //destination
+  destination_desktop,
+  destination_mobile,
+  destination_tablet,
+  moon,
+  mars,
+  europa,
+  titan
 };
