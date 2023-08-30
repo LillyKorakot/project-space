@@ -6,7 +6,8 @@ export default {
     extend: {},
     fontFamily: {
       'belle': ['Bellefair'],
-      'barlow': ['Barlow Condensed, sans-serif']
+      'barlow': ['Barlow Condensed, sans-serif'],
+      'barlow01': ['Barlow Condensed, serif']
     }
   },
   plugins: [],
