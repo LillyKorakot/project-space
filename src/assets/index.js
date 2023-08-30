@@ -3,6 +3,7 @@ import icon_close from "./shared/icon-close.svg";
 import icon_hamberger from "./shared/icon-hamburger.svg";
 
 //ส่วนรูปภาพของ Home
+import home_desktop from "./Home/background-home-desktop.jpg"
 
 //ส่วนรูปภาพของ destination
 import destination_desktop from "./destination/background-destination-desktop.jpg"
@@ -40,6 +41,8 @@ import spaceport_portrait from "./technology/image-spaceport-landscape.jpg"
 
 
 export {
+  //Home
+  home_desktop,
   //crew
   crew_desktop,
   crew_mobile,
