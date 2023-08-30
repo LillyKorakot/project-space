@@ -28,6 +28,16 @@ import victor_glover from "./crew/image-victor-glover.png";
 import victor_glover_webp from "./crew/image-victor-glover.webp";
 
 //ส่วนรูปภาพของ Technology
+import tech_desktop from "./technology/background-technology-desktop.jpg"
+import tech_mobile from "./technology/background-technology-mobile.jpg"
+import tech_tablet from "./technology/background-technology-tablet.jpg"
+import vehicle_landscape from "./technology/image-launch-vehicle-landscape.jpg"
+import vehicle_portrait from "./technology/image-launch-vehicle-portrait.jpg"
+import capsule_landscape from "./technology/image-space-capsule-landscape.jpg"
+import capsule_portrait from "./technology/image-space-capsule-portrait.jpg"
+import spaceport_landscape from "./technology/image-spaceport-landscape.jpg"
+import spaceport_portrait from "./technology/image-spaceport-landscape.jpg"
+
 
 export {
   //crew
@@ -49,5 +59,15 @@ export {
   moon,
   mars,
   europa,
-  titan
+  titan,
+  //technologies
+  tech_desktop,
+  tech_mobile,
+  tech_tablet,
+  vehicle_landscape,
+  vehicle_portrait,
+  capsule_landscape,
+  capsule_portrait,
+  spaceport_landscape,
+  spaceport_portrait
 };
