@@ -5,9 +5,10 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      'belle': ['Bellefair, serif'],
-      'barlow': ['Barlow Condensed, sans-serif'],
-      'barlow01': ['Barlow Condensed, serif']
+      belle: ["Bellefair, serif"],
+      barlow: ["Barlow Condensed, sans-serif"],
+      barlowC: ["Barlow Condensed"],
+      bellesans: ["Bellefair, sans-serif"],
     }
   },
   plugins: [],
