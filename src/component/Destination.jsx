@@ -18,7 +18,7 @@ const Destination = () => {
 
   return (
     <div
-      className="w-full h-screen flex items-center bg-cover bg-center"
+      className="w-full h-screen flex items-center bg-cover bg-center overflow-hidden"
       style={{ backgroundImage: `url(${destination_desktop})` }}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -43,9 +43,9 @@ const Destination = () => {
               <img src={titan} alt="Titan" className="max-w-full h-auto" />
             )}
           </div>
-          <div className="w-full md:w-3/5 h-auto flex flex-col justify-center">
+          <div className="w-full md:w-3/5 h-auto flex flex-col justify-center items-center md:items-start">
             <div>
-              <ul className="flex space-x-4 text-[#D0D6F9] font-barlow text-[16px] sm:text-[16px] lg:text-[16px]">
+              <ul className="flex space-x-4 text-[#D0D6F9] font-barlow text-[16px] sm:text-[16px] lg:text-[16px] ">
                 {destinations.map((destination) => (
                   <li
                     key={destination.id}
@@ -65,20 +65,20 @@ const Destination = () => {
             <h1 className="text-white font-belle text-5xl md:text-[100px] lg:text-[100px] pt-9 pb-4">
               {selectedDestination.name}
             </h1>
-            <p className=" w-[450px] text-[#D0D6F9] font-barlow text-[18px] leading-[32px] ">
+            <p className=" w-[450px] text-[#D0D6F9] font-barlow text-[18px] leading-[32px] text-center md:text-left ">
               {selectedDestination.description}
             </p>
             <hr className="my-5 border-[#383B4B] border-t-2" />
             <div className="grid grid-cols-2 gap-[79px] text-[#D0D6F9] font-barlow">
               <div>
                 <h1 className="uppercase text-sm md:text-[14px] lg:text-[14px] pb-3 ">AVG. DISTANCE</h1>
-                <p className=" uppercase text-white font-belle text-sm md:text-[28px] lg:text-[28px]">
+                <p className=" uppercase md:w-[800px] text-white font-belle text-sm md:text-[28px] lg:text-[28px]">
                   {selectedDestination.distance}
                 </p>
               </div>
               <div>
                 <h1 className="uppercase text-sm md:text-[14px] lg:text-[14px] pb-3 ">Est. travel time</h1>
-                <p className=" uppercase  text-white font-belle text-sm md:text-[28px] lg:text-[28px]">
+                <p className=" uppercase text-white font-belle text-sm md:text-[22px] lg:text-[28px]">
                   {selectedDestination.travel}
                 </p>
               </div>
