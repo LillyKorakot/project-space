@@ -11,7 +11,7 @@ function App() {
     <>
     <Navbar/>
     <Home/>
-    {/* <Destination/> */}
+    <Destination/>
     <Crew/>
     <Technology/>
     </>
