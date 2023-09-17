@@ -11,12 +11,11 @@ import Home from "./component/Home";
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
-      {/* <Home /> */} */
-      {/* <Destination />
-      {/* <Crew /> */}
-      {/* <CrewTest /> */}
-      {/* <Technology /> */}
+      <Navbar />
+      <Home />
+      <Destination />
+      <Crew />
+      <Technology />
     </>
   );
 }
