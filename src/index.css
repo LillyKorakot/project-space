@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Inter:wght@600&display=swap");
 
+/* Rest of your CSS code, including @tailwind utilities */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-

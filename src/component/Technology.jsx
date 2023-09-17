@@ -22,9 +22,6 @@ const Technology = () => {
       className="w-full h-screen bg-cover bg-center overflow-hidden flex flex-col items-center justify-center"
       style={{ backgroundImage: `url(${tech_desktop})` }}
     >
-      <div className=" text-white bg-slate-300 opacity-50 w-screen h-32 flex justify-center items-center"> 
-      {/* nav bar */}
-      </div>
       <div className=" flex justify-center text-3xl w-full font-barlow opa  text-gray-600 uppercase pb-5 md:pb-10 mt-20 md:pl-[150px] md:justify-normal">
         03
         <span className="ml-5 font-barlow text-white">Space Launch 101</span>
@@ -63,13 +60,25 @@ const Technology = () => {
 
         <div className=" flex h-full w-screen md:pl-12 lg:pl-12 justify-center md:justify-end lg:justify-end">
           {selectedTechnology.id === "1" && (
-            <img src={vehicle_portrait} alt="Vehicle" className=" h-auto w-[55%]   " />
+            <img
+              src={vehicle_portrait}
+              alt="Vehicle"
+              className=" h-auto w-[55%]   "
+            />
           )}
           {selectedTechnology.id === "2" && (
-            <img src={capsule_portrait} alt="Capsule" className=" h-auto w-[55%]  " />
+            <img
+              src={capsule_portrait}
+              alt="Capsule"
+              className=" h-auto w-[55%]  "
+            />
           )}
           {selectedTechnology.id === "3" && (
-            <img src={spaceport_portrait} alt="Spaceport" className=" h-auto w-[55%]  " />
+            <img
+              src={spaceport_portrait}
+              alt="Spaceport"
+              className=" h-auto w-[55%]  "
+            />
           )}
         </div>
       </div>
