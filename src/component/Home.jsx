@@ -1,10 +1,15 @@
-import { useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-scroll";
 import React from "react";
 
+
+
 const Home = () => {
+  const [nav, setNav] = useState(false);
+const handleClick = () => setNav(!nav);
   return (
     <section
+      name="home"
       className="w-full h-[1000px] md:h-[1024px] xl:h-[900px]  bg-home_tablet md:bg-home_tablet xl:bg-home_desktop bg-cover bg-center bg-no-repeat flex flex-col xl:flex xl:flex-row justify-center items-center px-12 pb-[13.1rem]   md:bg-cover md:bg-no-repeat md:bg-center  xl:justify-around xl:items-end xl:pt-[20%] 
       "
     >
@@ -24,8 +29,8 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <Link>
-        <div className="w-[150px] h-[150px] md:w-[242px] md:h-[242px] xl:w-[242px] xl:h-[242px] flex flex-row items-center justify-center mt-32 rounded-full bg-white uppercase text-base leading-none text-gray-900 hover:shadow-2xl cursor-pointer ">
+      <Link onClick={handleClick} to="destination" smooth={true} duration={500} >
+        <div className="w-[150px] h-[150px] md:w-[242px] md:h-[242px] xl:w-[242px] xl:h-[242px] flex flex-row items-center justify-center mt-32 rounded-full bg-white  uppercase text-base leading-none text-gray-900 hover:shadow-2xl cursor-pointer hover: shadow-2xl hover:shadow-white ">
           <span className="text-[20px] font-belle md:text-[32px]">explore</span>
         </div>
       </Link>

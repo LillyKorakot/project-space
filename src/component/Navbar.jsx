@@ -120,7 +120,7 @@ const Navbar = () => {
         </li>
         <li className="flex justify-center items-start  mx-[40px] cursor-pointer py-6 ml-8 ">
           {" "}
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="destination" smooth={true} duration={500}>
             <div className="flex justify-start items-center w-[100px] h-[20px] bg-">
               <span className="text-white text-lg mr-2 font-bold">01</span>
               <div className="text-white text-lg">Destination</div>
@@ -130,7 +130,7 @@ const Navbar = () => {
         <li className="flex justify-start items-start  mx-[40px] cursor-pointer py-6 ml-8 ">
           <Link
             onClick={handleClick}
-            to="certificate"
+            to="crew"
             smooth={true}
             duration={500}
           >
@@ -142,7 +142,7 @@ const Navbar = () => {
         </li>
 
         <li className="flex justify-start items-start mx-[40px] cursor-pointer py-6 ml-8 ">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="technology" smooth={true} duration={500}>
             <div className="flex justify-start items-center w-[100px] h-[20px] ">
               <span className="text-white text-lg mr-2 font-bold">03</span>
               <div className="text-white text-lg">Technology</div>

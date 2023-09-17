@@ -77,7 +77,9 @@ const Crew = () => {
   ];
 
   return (
-    <section className=" bg-crew_mobile md:bg-crew_tablet xl:bg-crew_desktop flex flex-col justify-center items-center px-6 h-[710px] w-full text-[#ffff] bg-cover bg-center md:w-full md:h-[1024px]  xl:w-full xl:h-[100%] xl:text-left xl:bg-center xl:bg-no-repeat xl:bg-cover xl:px-64 xl:pt-[10%] md:bg-center md:bg-no-repeat md:bg-cover   font-normal">
+    <section
+    name= "crew"
+     className=" bg-crew_mobile md:bg-crew_tablet xl:bg-crew_desktop flex flex-col justify-center items-center px-6 h-[710px] w-full text-[#ffff] bg-cover bg-center md:w-full md:h-[1024px]  xl:w-full xl:h-[100%] xl:text-left xl:bg-center xl:bg-no-repeat xl:bg-cover xl:px-64 xl:pt-[10%] md:bg-center md:bg-no-repeat md:bg-cover   font-normal">
       {slides.map((slide, index) => (
         <div
           key={index}

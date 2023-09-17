@@ -18,6 +18,7 @@ const Destination = () => {
 
   return (
     <div
+    name ="destination"
       className="w-full h-screen flex items-center bg-cover bg-center overflow-hidden"
       style={{ backgroundImage: `url(${destination_desktop})` }}
     >
@@ -71,13 +72,17 @@ const Destination = () => {
             <hr className="my-5 border-[#383B4B] border-t-2" />
             <div className="grid grid-cols-2 gap-[79px] text-[#D0D6F9] font-barlow">
               <div>
-                <h1 className="uppercase text-sm md:text-[14px] lg:text-[14px] pb-3 ">AVG. DISTANCE</h1>
+                <h1 className="uppercase text-sm md:text-[14px] lg:text-[14px] pb-3 ">
+                  AVG. DISTANCE
+                </h1>
                 <p className=" uppercase md:w-[800px] text-white font-belle text-sm md:text-[28px] lg:text-[28px]">
                   {selectedDestination.distance}
                 </p>
               </div>
               <div>
-                <h1 className="uppercase text-sm md:text-[14px] lg:text-[14px] pb-3 ">Est. travel time</h1>
+                <h1 className="uppercase text-sm md:text-[14px] lg:text-[14px] pb-3 ">
+                  Est. travel time
+                </h1>
                 <p className=" uppercase text-white font-belle text-sm md:text-[22px] lg:text-[28px]">
                   {selectedDestination.travel}
                 </p>

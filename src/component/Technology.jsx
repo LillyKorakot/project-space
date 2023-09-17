@@ -19,6 +19,7 @@ const Technology = () => {
 
   return (
     <div
+    name= "technology"
       className="w-full h-screen bg-cover bg-center overflow-hidden flex flex-col items-center justify-center"
       style={{ backgroundImage: `url(${tech_desktop})` }}
     >
