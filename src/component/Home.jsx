@@ -2,17 +2,16 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import React from "react";
 
-
-
 const Home = () => {
   const [nav, setNav] = useState(false);
-const handleClick = () => setNav(!nav);
+  const handleClick = () => setNav(!nav);
   return (
     <section
       name="home"
-      className="w-full h-[1000px] md:h-[1024px] xl:h-[900px]  bg-home_tablet md:bg-home_tablet xl:bg-home_desktop bg-cover bg-center bg-no-repeat flex flex-col xl:flex xl:flex-row justify-center items-center px-12 pb-[13.1rem]   md:bg-cover md:bg-no-repeat md:bg-center  xl:justify-around xl:items-end xl:pt-[20%] 
-      "
+      className="w-full h-[1000px] md:h-[1024px] xl:h-[900px] p-10 bg-home_tablet md:bg-home_tablet xl:bg-home_desktop bg-cover bg-center bg-no-repeat flex flex-col xl:flex xl:flex-row justify-center items-center px-12 pb-[13.1rem] md:bg-cover md:bg-no-repeat md:bg-center xl:justify-around xl:items-end xl:pt-[20%]"
+      style={{ overflowX: "hidden" }}
     >
+      {" "}
       <div className="w-[400px] h-[276px] xl:w-[600px] xl:h-[500px] mt-[100px] xl:mt-[450px] text-[#ffff] text-center leading-6 font-normal p-0 m-0  xl:text-left xl:leading-[3.2rem]">
         <span className=" xl:w-[379px] xl:h-[34px] font-barlow font-[1.6rem] xl:text-[28px] text-[#D0D6F9] tracking-[0.25rem] xl:font-[2.8rem] ">
           SO, YOU WANT TO TRAVEL TO
@@ -21,7 +20,7 @@ const handleClick = () => setNav(!nav);
           <span>SPACE</span>
         </h1>
         <div className="mt-[30px]  xl:mt-[24px] w-[445px] h-[128px] xl:w-[444px] xl:h-[128px] ">
-          <p className="  w-[400px]   font-barlowC xl:text-[18px] md:text-[16px]  font-normal leading-[32px]  text-[#D0D6F9] xl:font-barlow  ">
+          <p className="  w-[400px] px-10 md:px-0 lg:px-0 font-barlowC xl:text-[18px] md:text-[16px]  font-normal leading-[32px]  text-[#D0D6F9] xl:font-barlow  ">
             Let’s face it, if you want to go to space, you might as well
             genuinely go to outer space and not hover kind of on the edge of it.
             Well sit back, and relax because we’ll give you a truly out of this
@@ -29,7 +28,7 @@ const handleClick = () => setNav(!nav);
           </p>
         </div>
       </div>
-      <Link onClick={handleClick} to="destination" smooth={true} duration={500} >
+      <Link onClick={handleClick} to="destination" smooth={true} duration={500}>
         <div className="w-[150px] h-[150px] md:w-[242px] md:h-[242px] xl:w-[242px] xl:h-[242px] flex flex-row items-center justify-center mt-32 rounded-full bg-white  uppercase text-base leading-none text-gray-900 hover:shadow-2xl cursor-pointer hover: shadow-2xl hover:shadow-white ">
           <span className="text-[20px] font-belle md:text-[32px]">explore</span>
         </div>

@@ -19,7 +19,7 @@ const Technology = () => {
 
   return (
     <div
-    name= "technology"
+      name="technology"
       className="w-full h-screen bg-cover bg-center overflow-hidden flex flex-col items-center justify-center"
       style={{ backgroundImage: `url(${tech_desktop})` }}
     >
@@ -53,7 +53,7 @@ const Technology = () => {
             <h1 className="text-white  font-belle text-4xl md:text-[56px] lg:text-[56px]  pb-[17px] uppercase">
               {selectedTechnology.name}
             </h1>
-            <p className="text-[#D0D6F9] w-[444px] leading-10 text-[15px]  font-barlow  md:text-[18px] lg:text-[18px]  ">
+            <p className="text-[#D0D6F9] w-[444px] px-10 md:px-0 leading-10 text-[15px]  font-barlow  md:text-[18px] lg:text-[18px]  ">
               {selectedTechnology.description}
             </p>
           </div>

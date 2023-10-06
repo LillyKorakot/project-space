@@ -19,7 +19,7 @@ const Destination = () => {
   return (
     <div
     name ="destination"
-      className="w-full h-screen flex items-center bg-cover bg-center overflow-hidden"
+      className="w-full h-full p-5 md:h-screen  flex items-center bg-cover bg-center overflow-hidden"
       style={{ backgroundImage: `url(${destination_desktop})` }}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -66,7 +66,7 @@ const Destination = () => {
             <h1 className="text-white font-belle text-5xl md:text-[100px] lg:text-[100px] pt-9 pb-4">
               {selectedDestination.name}
             </h1>
-            <p className=" w-[450px] text-[#D0D6F9] font-barlow text-[18px] leading-[32px] text-center md:text-left ">
+            <p className=" w-[450px] px-10 md:px-0 text-[#D0D6F9] font-barlow text-[18px] leading-[32px] text-center md:text-left ">
               {selectedDestination.description}
             </p>
             <hr className="my-5 border-[#383B4B] border-t-2" />

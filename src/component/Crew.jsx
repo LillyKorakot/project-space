@@ -78,8 +78,11 @@ const Crew = () => {
 
   return (
     <section
-    name= "crew"
-     className=" bg-crew_mobile md:bg-crew_tablet xl:bg-crew_desktop flex flex-col justify-center items-center px-6 h-[710px] w-full text-[#ffff] bg-cover bg-center md:w-full md:h-[1024px]  xl:w-full xl:h-[100%] xl:text-left xl:bg-center xl:bg-no-repeat xl:bg-cover xl:px-64 xl:pt-[10%] md:bg-center md:bg-no-repeat md:bg-cover   font-normal">
+      name="crew"
+      className="bg-crew_mobile md:bg-crew_tablet xl:bg-crew_desktop px-10 flex flex-col justify-center items-center px-6 h-[710px] w-full text-[#ffff] bg-cover bg-center md:w-full md:h-[1024px] xl:w-full xl:h-[100%] xl:text-left xl:bg-center xl:bg-no-repeat xl:bg-cover xl:px-64 xl:pt-[10%] md:bg-center md:bg-no-repeat md:bg-cover font-normal"
+      style={{ overflowX: "hidden" }}
+    >
+      {" "}
       {slides.map((slide, index) => (
         <div
           key={index}
@@ -91,8 +94,8 @@ const Crew = () => {
             <span className=" mr-[1.8rem]   opacity-60 ">{slide.number}</span>
             Meet your crew
           </h2>
-          <div className=" md:flex  md:flex-col-reverse xl:flex-row-reverse xl:ml-[165px] ">
-            <div className="w-[250px] h-[250px] md:w-[433px] md:h-[532px]  border-b border-gray-800 xl:w-[800px] xl:h-[712px] min-w-[32.7rem] md:mt-[40px]  m-12 flex justify-center   xl:items-end items-end xl:m-0 xl:border-none ">
+          <div className=" md:flex w-full  md:flex-col-reverse xl:flex-row-reverse xl:ml-[165px] ">
+            <div className="w-[250px] h-[250px] md:w-[433px] md:h-[532px] xl:w-[800px] xl:h-[712px] min-w-[32.7rem] md:mt-[40px]  m-12 flex justify-center   xl:items-end items-end xl:m-0 xl:border-none ">
               <img
                 className=" w-[250px] h-[250px]   mb-auto md:w-[456px] md:h-[527px] xl:w-[80%] xl:h-[100%]   "
                 src={slides[slideIndex].image}
@@ -125,7 +128,7 @@ const Crew = () => {
                   </h3>
                 </div>
                 <div className="w-[372px] h-[125px] md:text-[16px]  md:w-[592px] md:h-[160px] xl:w-[600px] xl:h-[160px]  ">
-                  <p className="w-[100%] h-[100%] leading-[25px] text-[15px] text-[#D0D6F9] md:text-[16px]  md:leading-[28px] font-barlowC xl:max-w-[70%] xl:text-[18px] xl:leading-[32px] ">
+                  <p className="w-[100%] h-[100%] px-5 md:px-0 text-center md:text-start leading-[25px] text-[15px] text-[#D0D6F9] md:text-[16px]  md:leading-[28px] font-barlowC xl:max-w-[70%] xl:text-[18px] xl:leading-[32px] ">
                     {slide.text}
                   </p>
                 </div>
